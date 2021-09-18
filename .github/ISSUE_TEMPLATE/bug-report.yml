@@ -5,10 +5,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before submitting an issue please: search the following links to make sure your issue is not covered:
+        Before submitting an issue please:
         
-        - Make sure it hasn't already been reported by checking the Issues section.
-        - Make sure it's an issue by checking if our Wiki section has an entry about it.
+        - Check if the **Issues section** has a similar issue.
+        - Check if the **Wiki section** has an entry about it.
   
   - type: input
     id: modpack-version
