@@ -1,0 +1,185 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+
+repository:
+  # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  # name: repo-name
+
+  # A short description of the repository that will show up on GitHub
+  # description: description of repo
+
+  # A URL with more information about the repository
+  # homepage: https://example.github.io/
+
+  # A comma-separated list of topics to set on the repository
+  topics: minecraft, minecraft-modpack, modpack
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: false
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either `true` to enable projects for this repository, or `false` to disable them.
+  # If projects are disabled for the organization, passing `true` will cause an API error.
+  has_projects: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: true
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: false
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: true
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: false
+
+  # Either `true` to enable automatic deletion of branches on merge, or `false` to disable
+  delete_branch_on_merge: false
+
+  # Either `true` to enable automated security fixes, or `false` to disable
+  # automated security fixes.
+  enable_automated_security_fixes: true
+
+  # Either `true` to enable vulnerability alerts, or `false` to disable
+  # vulnerability alerts.
+  enable_vulnerability_alerts: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: "Accepted"
+    description: "This will be worked on."
+    color: "006b75"
+
+  - name: "Advancement"
+    description: ""
+    color: "0052cc"
+
+  - name: "Bug"
+    description: ""
+    color: "d73a4a"
+
+  - name: "Development"
+    description: "General development, using this on an issue will not add it to changelogs, as opposed to Enhancement"
+    color: "c5def5"
+
+  - name: "Documentation Required"
+    description: "A wiki entry should be made before merging this."
+    color: "c2e0c6"
+
+  - name: "Duplicate"
+    description: ""
+    color: "cfd3d7"
+
+  - name: "Enhancement"
+    description: ""
+    color: "00008b"
+
+  - name: "External Mod"
+    description: ""
+    color: "ffffff"
+
+  - name: "Feature Needed"
+    description: ""
+    color: "460c7c"
+
+  - name: "Help Wanted"
+    description: ""
+    color: "008672"
+
+  - name: "Info"
+    description: ""
+    color: "006b75"
+
+  - name: "Invalid"
+    description: ""
+    color: "e4e669"
+
+  - name: "Java Version"
+    description: ""
+    color: "ea6b60"
+
+  - name: "Maintenance"
+    description: ""
+    color: "fbca04"
+
+  - name: "Mod Issue"
+    description: ""
+    color: "127fe5"
+
+  - name: "Mohist"
+    description: ""
+    color: "f9d0c4"
+
+  - name: "Multiplayer Only"
+    description: "The issue only occurs in multiplayer"
+    color: "b60205"
+
+  - name: "Optifine"
+    description: ""
+    color: "a1f4cd"
+
+  - name: "Quest"
+    description: ""
+    color: "c396ff"
+
+  - name: "Question"
+    description: ""
+    color: "d876e3"
+
+  - name: "SpongeForge"
+    description: ""
+    color: "fbca04"
+
+  - name: "Status: Awaiting Information"
+    description: ""
+    color: "ffffff"
+
+  - name: "Status: Awaiting Mod Update"
+    description: ""
+    color: "08c403"
+
+  - name: "Status: Blocked"
+    description: ""
+    color: "e11d21"
+
+  - name: "Status: Cannot Reproduce"
+    description: ""
+    color: "000000"
+
+  - name: "Status: Confirmation Needed"
+    description: "The bug needs to be confirmed by at least one more."
+    color: "bfd4f2"
+
+  - name: "Status: Fixed In Next Release"
+    description: ""
+    color: "0d8016"
+
+
+# Collaborators: give specific users access to this repository.
+# See https://docs.github.com/en/rest/reference/repos#add-a-repository-collaborator for available options
+collaborators:
+  # - username: bkeepers
+  # - username: hubot
+
+
+branches:
+  - name: master
+    # https://docs.github.com/en/rest/reference/repos#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection: null
+  - name: develop
+    protection: null
+  
