@@ -1,24 +1,27 @@
----
 name: Mod Suggestion
-about: Suggest a new mod
-title: Mod Name
-labels: Suggestion
----
+description: Suggest a new mod
+labels: [Suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a mod, please make sure it hasn't been suggested before.
 
-DELETE THIS TEXT BEFORE WRITING YOUR SUGGESTION
+        Please keep in mind that each and every new mod makes the modpack a little harder to run, 
+        so we're a bit strict when it comes to mod suggestions.        
+          
+  - type: input
+    id: link
+    attributes:
+      label: CurseForge URL
+      description: Link to the mod on CurseForge
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/emendatus-enigmatica
+    validations:
+      required: true
 
-Before suggesting a mod, please make sure it hasn't been suggested before.
-
-Please keep in mind that each and every new mod makes the modpack a little harder to run, so we're a bit strict when it comes to mod suggestions.
-
-
----------------------------->
-
-**CurseForge Link**
-
-**Mod description**
-Write a short description of the mod here.
-
-**Why would you like the mod added?**
-
-**Screenshots if applicable.**
+  - type: text-area
+    id: reason
+    attributes:
+      label: Why would you like the mod added?
+    validations:
+      required: false
