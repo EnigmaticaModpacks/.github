@@ -8,8 +8,7 @@ body:
         ## Before suggesting a mod, please make sure it hasn't been suggested before.
 
 
-        Please keep in mind that each and every new mod makes the modpack a little harder to run, 
-        so we're a bit strict when it comes to mod suggestions.        
+        Please keep in mind that each and every new mod makes the modpack a little harder to run, so we're a bit strict when it comes to mod suggestions.        
           
   - type: input
     id: link
