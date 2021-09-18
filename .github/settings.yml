@@ -183,13 +183,3 @@ labels:
 collaborators:
   # - username: bkeepers
   # - username: hubot
-
-
-branches:
-  - name: master
-    # https://docs.github.com/en/rest/reference/repos#update-branch-protection
-    # Branch Protection settings. Set to null to disable
-    protection: null
-  - name: develop
-    protection: null
-  
