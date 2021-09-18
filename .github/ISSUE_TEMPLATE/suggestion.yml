@@ -8,8 +8,8 @@ body:
       
         ## Before making a suggestion please:
         
-        - Check for similar suggestions in the Issues & Discussions sections.
-        - Check the Wiki section for entries regarding your suggestion.
+        - Check for similar suggestions in the **Issues & Discussions sections**.
+        - Check the **Wiki section** for entries regarding your suggestion.
           
   - type: textarea
     id: description
