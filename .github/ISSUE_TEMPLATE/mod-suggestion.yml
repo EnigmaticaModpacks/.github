@@ -5,10 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
+      
         ## Before suggesting a mod, please:
         
         - Make sure it hasn't been suggested before.
-        - Keep in mind that each and every new mod makes the modpack a little harder to run
+        - Keep in mind that every new mod makes the modpack a little harder to run.
           
   - type: input
     id: link
