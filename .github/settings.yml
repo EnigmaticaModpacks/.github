@@ -67,9 +67,10 @@ labels:
     description: ""
     color: "0052cc"
 
-  - name: "Bug"
+  - name: "bug"
     description: ""
     color: "d73a4a"
+    new_name: "Bug"
 
   - name: "Development"
     description: "General development, using this on an issue will not add it to changelogs, as opposed to Enhancement"
@@ -79,13 +80,15 @@ labels:
     description: "A wiki entry should be made before merging this."
     color: "c2e0c6"
 
-  - name: "Duplicate"
+  - name: "duplicate"
     description: ""
     color: "cfd3d7"
-
-  - name: "Enhancement"
+    new_name: "Duplicate"
+    
+  - name: "enhancement"
     description: ""
     color: "00008b"
+    new_name: "Enhancement"
 
   - name: "External Mod"
     description: ""
@@ -95,18 +98,20 @@ labels:
     description: ""
     color: "460c7c"
 
-  - name: "Help Wanted"
+  - name: "help wanted"
     description: ""
     color: "008672"
+    new_name: "Help Wanted"
 
   - name: "Info"
     description: ""
     color: "006b75"
 
-  - name: "Invalid"
+  - name: "invalid"
     description: ""
     color: "e4e669"
-
+    new_name: "Invalid"
+    
   - name: "Java Version"
     description: ""
     color: "ea6b60"
@@ -135,9 +140,10 @@ labels:
     description: ""
     color: "c396ff"
 
-  - name: "Question"
+  - name: "question"
     description: ""
     color: "d876e3"
+    new_name: "Question"
 
   - name: "SpongeForge"
     description: ""
@@ -166,6 +172,10 @@ labels:
   - name: "Status: Fixed In Next Release"
     description: ""
     color: "0d8016"
+
+  - name: "Status: Won't Fix"
+    description: "This will not be worked on."
+    color: "ffffff"
 
 
 # Collaborators: give specific users access to this repository.
