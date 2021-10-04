@@ -3,6 +3,8 @@ name: 'Support Requests'
 on:
   issues:
     types: [labeled, unlabeled, reopened]
+  workflow_call:
+
 
 permissions:
   issues: write
