@@ -37,7 +37,7 @@ body:
     id: latest-log
     attributes:
       label: Latest Log
-      description: [Optional] Upload your latest.log to [https://gist.github.com](https://gist.github.com/) and paste a link to it here. We often ask for this, so adding it upfront can save some time.
+      description: Optional: Upload your latest.log to [https://gist.github.com](https://gist.github.com/) and paste a link to it here. We often ask for this, so adding it upfront can save some time.
     validations:
       required: false
             
