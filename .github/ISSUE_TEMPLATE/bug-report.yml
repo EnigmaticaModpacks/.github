@@ -71,11 +71,11 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: discord-username
     attributes:
       label: Discord Username
-      description: If you are in the [enigmatica discord](https://discord.com/invite/enigmatica) and wouldn't mind being asked further questions there, leave your username here.
+      description: If you are in the [Enigmatica Discord](https://discord.com/invite/enigmatica) and wouldn't mind being asked further questions there, leave your username here.
       placeholder: username#0000
     validations:
       required: false
